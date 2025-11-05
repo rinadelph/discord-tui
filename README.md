@@ -1,4 +1,4 @@
-# Discord TUI - Terminal Discord Client
+# Discord TUI
 
 A lightweight, keyboard-driven Discord client for the terminal with message sending, guild navigation, and comprehensive logging.
 
@@ -49,10 +49,14 @@ uv run -m discordo.cmd.cmd
 
 ## Getting Your Token
 
-1. Go to https://discord.com/developers/applications
-2. Create/select your application
-3. Copy your token
-4. Never share this token!
+1. Open Discord app (or web version at discord.com)
+2. Press **F12** to open Developer Tools
+3. Go to **Application** tab
+4. Expand **Local Storage** in left sidebar
+5. Select **https://discord.com**
+6. Search (Ctrl+F) for **token** in the values
+7. Copy the token value (long string starting with your user ID)
+8. **Never share this token!** - It gives full access to your account
 
 ## Logs
 
