@@ -1,0 +1,21 @@
+# Discord API
+discord.py>=2.3.0
+aiohttp>=3.9.0
+
+# TUI Framework
+textual>=0.30.0
+rich>=13.7.0
+textual-image>=0.1.0
+
+# Configuration
+tomllib-compat>=1.0.0
+
+# System Integration
+keyring>=24.0.0
+pyperclip>=1.8.2
+
+# File Handling
+python-magic>=0.4.27
+
+# Optional: Better terminal support
+wcwidth>=0.2.12
